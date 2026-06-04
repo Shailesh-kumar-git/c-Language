@@ -23,5 +23,6 @@ int main(){
     printf("enter your age = ");
     scanf("%d",&age);
     age>=20 ? printf("you can give vote") : printf("you can't give vote");
+    printf("u are done");
     return 0;
 }
