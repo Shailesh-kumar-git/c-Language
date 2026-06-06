@@ -2,9 +2,9 @@
 
 int main(){
     float km,m;
-    printf("enter a value in m = ");
+    printf("enter a value in meter = ");
     scanf("%f",&m);
     km=m/1000;
-    printf("%.3f",km);
+    printf("in km = %.3f",km);
     return 0;
 }
