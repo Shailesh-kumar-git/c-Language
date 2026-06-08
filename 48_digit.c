@@ -7,7 +7,7 @@
         char c;
         printf("enter any digit : ");
         scanf("%c", &c);
-        if (c >= 48 && c <= 57)
+        if (c >='0' && c <= '9')
         {
             printf("it is digit");
         }

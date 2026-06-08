@@ -1,6 +1,6 @@
 //   15.Write a program to check whether a character is an alphabet or not.
 
-/*
+
 #include<stdio.h>
 
 int main(){
@@ -13,9 +13,10 @@ int main(){
     printf("not an alphabet = %d",c);
     return 0;
 }
-*/
 
 
+
+/*
 #include<stdio.h>
 
 int main(){
@@ -29,4 +30,4 @@ int main(){
         printf("not an alphabe");
     }
     return 0;
-}
+}*/
