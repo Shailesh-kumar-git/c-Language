@@ -6,11 +6,17 @@ int main() {
     char c;
     printf("enter firat letter of your frends name : ");
     scanf("%c",&c);
+    
+    if(c>='A' && c<='Z')
+    {
+        c=c+32;
+    }
     switch(c){
-        case 's': printf("siddant"); break;
+        case 's': printf("siddhant"); break;
         case 'a': printf("anshu"); break;
         case 'm': printf("mom"); break;
         case 'u': printf("umang"); break;
+        default:printf("error");
 
     }
     return 0;
