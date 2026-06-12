@@ -11,7 +11,7 @@ int main(){
     scanf("%c",&a);
     printf("enter password : ");
     scanf("%d",&p);
-     ((a>=65 && a<=90) || (a>=97 && a<=122)  )
+    if ((a>=65 && a<=90) || (a>=97 && a<=122)  )
     {
         printf("user name varified");
     }
