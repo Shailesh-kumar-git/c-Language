@@ -17,7 +17,7 @@ int main() {
     else if(l>0){
         printf("LOSS: %d", l);
     }
-    else{
+    else{    //(p==l)
         printf("NO PROFIT NO LOSS\n");
     }
     return 0;
